@@ -17,17 +17,17 @@ header: '© Software Engineering Musings - <https://bhuwanupadhyay.dev/> - subsc
   - _placing a new order_ 
   - _canceling an order_ 
   - _replacing an order_
-- Q: supports after-hours trading: _no_
+- Q: supports trading after normal hours: _no_
 - Q: business scale requirements:
     - how many users: _at least ten of thousands of users trading concurrently_
     - how many symbols: _at least 100 symbols_
     - how many orders: _billions of orders per day_
 - Q: risk checks or constraints:
-    - _user can only trade a maximum of 1 million shares per day in a single symbol_
+    - _user can only trade a maximum of 1 million shares per day for a single symbol_
 - non-functional requirements:
     - availability: _99.99%_
     - fault tolerance:
-        - _not data loss and fast recovery mechanism are needed to limit the impact of a production incident_
+        - _no data loss and fast recovery mechanisms are needed to limit the impact of a production incident_
     - latency:
         - _round-trip latency should be at the millisecond level; focus on 99th percentile latency_
         - _round-trip latency measured from the moment a market enters the exchange to the point where the market order
