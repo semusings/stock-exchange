@@ -15,8 +15,7 @@ header: '© Software Engineering Musings - <https://bhuwanupadhyay.dev/> - subsc
 - Q: supported securities: _stocks_
 - Q: business functions: 
   - _placing a new order_ 
-  - _canceling an order_ 
-  - _replacing an order_
+  - _canceling an order_
 - Q: supports trading after normal hours: _no_
 - Q: business scale requirements:
     - how many users: _at least ten of thousands of users trading concurrently_
@@ -29,7 +28,7 @@ header: '© Software Engineering Musings - <https://bhuwanupadhyay.dev/> - subsc
     - fault tolerance:
         - _no data loss and fast recovery mechanisms are needed to limit the impact of a production incident_
     - latency:
-        - _round-trip latency should be at the millisecond level; focus on 99th percentile latency_
+        - _round-trip latency should be at the millisecond level; focus on low 99th percentile latency_
         - _round-trip latency measured from the moment a market order enters the exchange to the point where the market order
           returns as filled execution_
     - security:
