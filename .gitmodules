@@ -1,0 +1,4 @@
+[submodule "etc/opentelemetry"]
+	path = etc/opentelemetry
+	url = git@github.com:semusings/opentelemetry.git
+	branch = main
