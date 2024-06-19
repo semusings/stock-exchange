@@ -36,9 +36,9 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v4.0.2
         with:
-          node-version: '14'
+          node-version: '20'
       - run: npm install
-      - run: npm run build
+      - run: npm run marp:build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
