@@ -30,7 +30,7 @@ header: '© Software Engineering Musings - <https://bhuwanupadhyay.dev/> - subsc
         - _no data loss and fast recovery mechanisms are needed to limit the impact of a production incident_
     - latency:
         - _round-trip latency should be at the millisecond level; focus on 99th percentile latency_
-        - _round-trip latency measured from the moment a market enters the exchange to the point where the market order
+        - _round-trip latency measured from the moment a market order enters the exchange to the point where the market order
           returns as filled execution_
     - security:
         - _should have an account management system and do KYC check to verify a user's before a new account is opened_
